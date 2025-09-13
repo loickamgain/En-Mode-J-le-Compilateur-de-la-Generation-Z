@@ -1,55 +1,39 @@
-# Syntaxe et Sémantique des Langages - INFOB314 et IHDCB332
-# Template du Projet Compilateur (En-Mode-J)
+# Syntax and Semantics of Programming Languages – INFOB314 and IHDCB332
+# Compiler Project Template (En-Mode-J)
 
-## Présentation
+## Presentation
 
-Développement d’un compilateur complet en Java pour En-Mode-J (EMJ), un langage spécifique basé sur des émojis pour programmer les robots éducatifs Cutebot. Le projet a couvert toutes les étapes de la compilation : conception d’une grammaire ANTLR, analyse lexicale/syntaxique, mise en place d’une table des symboles et d’un visiteur pour les vérifications sémantiques, puis génération de code MicroPython exécutable sur microcontrôleurs Micro:bit. La qualité a été assurée par des tests unitaires (JUnit), une intégration continue (Jenkins) et un suivi collaboratif sur GitHub.
+Development of a complete compiler in Java for En-Mode-J (EMJ), a domain-specific language based on emojis for programming Cutebot educational robots. The project covered all stages of compilation: ANTLR grammar design, lexical/syntactic analysis, implementation of a symbol table and a visitor for semantic checks, followed by code generation in MicroPython executable on Micro:bit microcontrollers. Quality assurance was ensured through unit testing (JUnit), continuous integration (Jenkins), and collaborative version control on GitHub.
 
-### Compétences : Java · ANTLR · Compilation · JUnit · Jenkins · Maven · GitHub · Travail d’équipe · Communication · Organisation
-## Mise en Place du Projet
+### Skills: Java · ANTLR · Compilation · JUnit · Jenkins · Maven · GitHub · Teamwork · Communication · Organization
 
-1. Télécharger IntelliJ IDEA - Community Edition
-- Version utilisée : 2023.3.5
-- URL : https://www.jetbrains.com/idea/download/other.html
+## Project Setup
 
-2. Télécharger Maven
-- Version utilisée : 3.9.6
-- URL : https://maven.apache.org/download.cgi
-- Il ne faut pas oublier d'ajouter le folder `bin` de `apache-maven-x.x.x` dans la variable d'environnement `PATH`
+1. Download IntelliJ IDEA – Community Edition
+- Version used: 2023.3.5
+- URL: https://www.jetbrains.com/idea/download/other.html
 
-3. Télécharger le template du projet de Syntaxe et Sémantique, avec le bon fichier de configuration `pom.xml` (est inclus dans le présent projet)
+2. Download Maven
+- Version used: 3.9.6
+- URL: https://maven.apache.org/download.cgi
+- Do not forget to add the `bin` folder of `apache-maven-x.x.x` to the `PATH` environment variable
 
-4. Lorsque tous les téléchargements sont effectués, il faut
-- Ouvrir le projet dans IntelliJ IDEA
-- Dans IntelliJ IDEA, aller dans `File -> New Projects Setup -> Structure`
-- Dans le champ `SDK`, cliquer sur `Download JDK...`
-- Dans le champ `Version`, indiquer `1.8` (les champs `Vendor` et `Location` sont au choix) et puis cliquer sur `Download`
-- Fermer et revenir au projet ; IntelliJ IDEA proposera de configurer le JDK du projet à celui-ci
+3. Download the Syntax and Semantics project template, including the proper `pom.xml` configuration file (already included in this project)
 
-5. Toujours dans IntelliJ IDEA, aller dans `File -> Settings -> Plugins` et installer `ANTLR v4` de Terence Parr
+4. Once all downloads are completed:
+- Open the project in IntelliJ IDEA
+- In IntelliJ IDEA, go to `File -> New Projects Setup -> Structure`
+- In the `SDK` field, click on `Download JDK...`
+- In the `Version` field, enter `1.8` (the `Vendor` and `Location` fields are optional), then click `Download`
+- Close and return to the project; IntelliJ IDEA will suggest configuring the project JDK with the downloaded one
 
-6. Mettre en place maven en exécutant les commandes suivantes :
+5. Still in IntelliJ IDEA, go to `File -> Settings -> Plugins` and install `ANTLR v4` by Terence Parr
 
-```shell
-mvn clean
-mvn compile
-```
-
-Il se peut que vous ayez des erreurs d'import de EMJLexer/EMJParser. Dans ce cas, exécutez une ou plusieurs des commandes suivantes : `mvn clean install`, `mvn dependency:resolve`, `mvn generate-sources`.
-
-Se cela ne fonctionne toujours pas, utilisez l'interface Maven dans IntelliJ (en haut à droite) et appuyez sur `Generate Sources and Update Folders For All Projects`.
-
-7. Le projet est maintenant mis en place, et est compatible avec les tests en local et sur Jenkins
-
-8. Ne pas oublier de push les changements du projet sur le repository GitHub avant de lancer un build sur Jenkins
-
-### Tests du Projet en Local
-
-Exécuter les commandes suivantes :
+6. Set up Maven by running the following commands:
 ```shell
 mvn clean
 mvn compile
 mvn "-Dtest=TEST_1,TEST_2,..." test
 ```
 
-La console va exécuter les tests spécifiés, et affichera les résultats correspondants.
+The console will run the specified tests, and display the corresponding results.
