@@ -1,0 +1,5 @@
+🌀 🏠() {
+    🔡 [🥰] = ("first", "second");
+    [🥰]0️ = 42; // erreur intentionnelle : affectation d'un entier à un élément de tuple-string
+    ↩️ 🌀;
+}

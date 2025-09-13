@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="be.unamur.info.b314.compiler.main.EMJDoneTest" time="6.641" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/test-classes:/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/classes:/Users/loic/.m2/repository/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar:/Users/loic/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/Users/loic/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/Users/loic/.m2/repository/org/antlr/ST4/4.3.1/ST4-4.3.1.jar:/Users/loic/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/Users/loic/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/Users/loic/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/Users/loic/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/loic/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/loic/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/loic/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/loic/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/loic/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/loic/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar:/Users/loic/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/loic/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/loic/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/loic/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/Users/loic/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar:/Users/loic/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/loic/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/surefire/surefirebooter-20250525080625891_3.jar /Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/surefire 2025-05-25T08-06-25_717-jvmRun1 surefire-20250525080625891_1tmp surefire_0-20250525080625891_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="EMJDoneTest#mes_test"/>
+    <property name="surefire.test.class.path" value="/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/test-classes:/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/classes:/Users/loic/.m2/repository/org/antlr/antlr4/4.9.3/antlr4-4.9.3.jar:/Users/loic/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/Users/loic/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/Users/loic/.m2/repository/org/antlr/ST4/4.3.1/ST4-4.3.1.jar:/Users/loic/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/Users/loic/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/Users/loic/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/Users/loic/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/loic/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/loic/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/loic/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/loic/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/loic/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/loic/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar:/Users/loic/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/loic/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/loic/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/loic/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/Users/loic/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar:/Users/loic/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/loic/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/loic"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/surefire/surefirebooter-20250525080625891_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="loic"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/loic/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xq/xt_220w139d7vyb036f128_r0000gn/T/"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/loic/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="mes_test" classname="be.unamur.info.b314.compiler.main.EMJDoneTest" time="0.319">
+    <system-out><![CDATA[08:06:32.800 [main] INFO  - Starting test: mes_test()...
+>> Entering visitIntExpr: ([🐢]+[🎯])
+>> Entering visitIntExpr: [🐢]+[🎯]
+>> Entering visitIntExpr: [🐢]
+>>> Entering visitLeftExp for ID: [🐢], Scope: [🥣]
+✅ Symbol found: type=int, value=null
+>> Entering visitIntExpr: [🎯]
+>>> Entering visitLeftExp for ID: [🎯], Scope: [🥣]
+✅ Symbol found: type=int, value=null
+[FUNC DECL] [🥣] is supposed to return: int / actually returns: int
+--- visitInstruction ---
+>> Entering visitIntExpr: 2
+✅ Fichier Python créé avec succès : output.py
+### Code MicroPython généré :
+from time import sleep
+import music
+
+# Import carte : "test.map"
+def main():
+    for i in range(2):
+        cuteBot.motors(40, 40)
+        basic.pause(460)
+        cuteBot.motors(0, 0)
+        basic.pause(500)
+
+def bowl_with_spoon(turtle, direct_hit):
+    return (turtle + direct_hit)
+
+
+main()
+
+]]></system-out>
+  </testcase>
+</testsuite>

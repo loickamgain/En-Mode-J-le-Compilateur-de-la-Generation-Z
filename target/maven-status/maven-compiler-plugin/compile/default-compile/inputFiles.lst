@@ -1,0 +1,17 @@
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/emj/EMJCodeGenerator.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/emj/EMJError.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/emj/EMJErrorLogger.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/emj/EMJVisitor.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/emj/MySymbol/AllSymbol.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/emj/MySymbol/TableSymbol.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/exception/EMJErrorException.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/exception/ParsingException.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/exception/SymbolNotFoundException.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/main/Main.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/src/main/java/be/unamur/info/b314/compiler/main/MyConsoleErrorListener.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/generated-sources/antlr4/be/unamur/info/b314/compiler/EMJLexer.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/generated-sources/antlr4/be/unamur/info/b314/compiler/EMJParser.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/generated-sources/antlr4/be/unamur/info/b314/compiler/EMJParserBaseListener.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/generated-sources/antlr4/be/unamur/info/b314/compiler/EMJParserBaseVisitor.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/generated-sources/antlr4/be/unamur/info/b314/compiler/EMJParserListener.java
+/Users/loic/Desktop/semantique/2425_INFOB314_GROUPE14/target/generated-sources/antlr4/be/unamur/info/b314/compiler/EMJParserVisitor.java
