@@ -5,7 +5,7 @@
 
 Développement d’un compilateur complet en Java pour En-Mode-J (EMJ), un langage spécifique basé sur des émojis pour programmer les robots éducatifs Cutebot. Le projet a couvert toutes les étapes de la compilation : conception d’une grammaire ANTLR, analyse lexicale/syntaxique, mise en place d’une table des symboles et d’un visiteur pour les vérifications sémantiques, puis génération de code MicroPython exécutable sur microcontrôleurs Micro:bit. La qualité a été assurée par des tests unitaires (JUnit), une intégration continue (Jenkins) et un suivi collaboratif sur GitHub.
 
-Compétences : Java · ANTLR · Compilation · JUnit · Jenkins · Maven · GitHub · Travail d’équipe · Communication · Organisation
+### Compétences : Java · ANTLR · Compilation · JUnit · Jenkins · Maven · GitHub · Travail d’équipe · Communication · Organisation
 ## Mise en Place du Projet
 
 1. Télécharger IntelliJ IDEA - Community Edition
