@@ -1,4 +1,4 @@
-# Syntax and Semantics of Programming Languages – INFOB314 and IHDCB332
+# Syntax and Semantics of Programming Languages – INFOB314
 # Compiler Project Template (En-Mode-J)
 
 ## Presentation
